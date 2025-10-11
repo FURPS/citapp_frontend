@@ -30,22 +30,26 @@ Navegación entre páginas básicas (Inicio, Citas, Pacientes).
 
 citapp/
 
---- app.js              
---- package.json    
-+-- public/
+--- public/
 ----- index.html     
 ----- citas.html 
------ pacientes.html   
+----- pacientes.html
+
 ---- css/
-------- styles.css   
-------- citas.css  
-------- pacientes.css  
+------- styles.css
+------- citas.css
+------- pacientes.css
+
+
 ---- js/
-------- main.js   
-------- citas.js 
-------- pacientes.js 
+------- main.js 
+------- citas.js
+------- pacientes.js
+
+
 ---- img/
-----+-- CitApp.jpg
+------ CitApp.jpg
+
 
 
 ---
@@ -55,23 +59,14 @@ citapp/
 1. Clonar el repositorio:
 
 git clone https://github.com/FURPS/citapp_frontend.git
-cd citiapp
+
+cd citapp
+cd public
 
 
-2. Instalar dependencias:
+2. Ejecutar en el navegador:
 
-npm install
-
-
-3. Ejecutar el servidor:
-
-npm start
-
-
-4. Abrir en el navegador:
-
-http://localhost:3000
-
+Abre el archivo index.html
 
 
 
@@ -84,7 +79,6 @@ Tecnología	Uso principal
 HTML5	Estructura de las páginas
 CSS3	Estilos y diseño responsivo
 JavaScript (Vanilla)	Lógica del lado del cliente
-Node.js + Express	Servidor local y manejo de rutas
 LocalStorage	Persistencia de datos en el navegador
 
 
