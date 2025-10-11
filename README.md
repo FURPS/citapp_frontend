@@ -1,10 +1,9 @@
 🦷 CitApp
 
 CitApp es una aplicación web para la gestión de citas odontológicas y el registro de pacientes en una clínica dental.
-Este proyecto forma parte del proceso de aprendizaje de Frontend y desarrollo web, combinando HTML, CSS, JavaScript y Node.js (Express) para crear una aplicación funcional y modular.
+Este proyecto forma parte del proceso de aprendizaje de Frontend y desarrollo web, combinando HTML, CSS, JavaScript.
 
 
----
 
 🚀 Estado del proyecto
 
@@ -24,8 +23,6 @@ Navegación entre páginas básicas (Inicio, Citas, Pacientes).
 
 
 
----
-
 🧱 Estructura del proyecto
 
 citapp/
@@ -41,18 +38,15 @@ citapp/
 ------- pacientes.css
 
 
----- js/
-------- main.js 
-------- citas.js
-------- pacientes.js
+js/
+main.js 
+citas.js
+pacientes.js
 
 
----- img/
------- CitApp.jpg
+img/CitApp.jpg
 
 
-
----
 
 ⚙️ Instalación y ejecución
 
@@ -70,20 +64,20 @@ Abre el archivo index.html
 
 
 
----
 
 🧩 Tecnologías utilizadas
 
 Tecnología	Uso principal
 
 HTML5	Estructura de las páginas
+
 CSS3	Estilos y diseño responsivo
+
 JavaScript (Vanilla)	Lógica del lado del cliente
+
 LocalStorage	Persistencia de datos en el navegador
 
 
-
----
 
 📦 Funcionalidades actuales
 
@@ -111,9 +105,6 @@ Eliminación de registros
 Persistencia con LocalStorage
 
 
-
----
-
 🔮 Próxima versión (v2.0)
 
 [ ] Conectar pacientes y citas (selección de paciente al agendar cita)
@@ -124,26 +115,16 @@ Persistencia con LocalStorage
 
 [ ] Mejorar la interfaz con alertas y modales
 
-[ ] Migrar a un entorno moderno con Vite o React/Vue
-
-
-
----
+[ ] Migrar a un entorno moderno con framework 
 
 👨‍💻 Autor
 
 Hugo Martínez
 Tecnólogo en Análisis y Desarrollo de Software
-📍 Colombia
+
 📧 [GMAIL: zteblladel9@gmail.com]
-
-
----
 
 🪪 Licencia
 
 Este proyecto se distribuye con fines educativos y de aprendizaje.
 Puede ser utilizado, modificado y mejorado libremente con la debida atribución al autor original.
-
-
----
