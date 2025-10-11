@@ -26,16 +26,15 @@ Navegación entre páginas básicas (Inicio, Citas, Pacientes).
 🧱 Estructura del proyecto
 
 citapp/
+public/
+index.html
+citas.html
+pacientes.html
 
---- public/
------ index.html     
------ citas.html 
------ pacientes.html
-
----- css/
-------- styles.css
-------- citas.css
-------- pacientes.css
+css/
+styles.css
+citas.css
+pacientes.css
 
 
 js/
