@@ -28,30 +28,24 @@ Navegación entre páginas básicas (Inicio, Citas, Pacientes).
 
 🧱 Estructura del proyecto
 
-citiapp/
-│
-├── app.js                 # Servidor Node con Express
-├── package.json           # Configuración de dependencias y scripts
-│
-├── public/
-│   ├── index.html         # Página de inicio
-│   ├── citas.html         # Módulo de gestión de citas
-│   ├── pacientes.html     # Módulo de gestión de pacientes
-│   │
-│   ├── css/
-│   │   ├── styles.css     # Estilos generales
-│   │   ├── citas.css      # Estilos específicos de citas
-│   │   └── pacientes.css  # Estilos específicos de pacientes
-│   │
-│   ├── js/
-│   │   ├── main.js        # Scripts generales
-│   │   ├── citas.js       # Lógica de citas
-│   │   └── pacientes.js   # Lógica de pacientes
-│   │
-│   └── img/
-│       └── logo.png       # Logotipo o recursos gráficos
-│
-└── node_modules/          # Dependencias (generadas automáticamente)
+citapp/
+
+--- app.js              
+--- package.json    
++-- public/
+----- index.html     
+----- citas.html 
+----- pacientes.html   
+---- css/
+------- styles.css   
+------- citas.css  
+------- pacientes.css  
+---- js/
+------- main.js   
+------- citas.js 
+------- pacientes.js 
+---- img/
+----+-- CitApp.jpg
 
 
 ---
@@ -60,7 +54,7 @@ citiapp/
 
 1. Clonar el repositorio:
 
-git clone https://github.com/usuario/citiapp.git
+git clone https://github.com/FURPS/citapp_frontend.git
 cd citiapp
 
 
